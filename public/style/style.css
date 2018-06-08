@@ -1,0 +1,23 @@
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  /*Add Background Texture*/
+  background-image: url('../images/newspaper-texture.jpg');
+}
+
+main {
+  flex: 1 0 auto;
+}
+.icon {
+margin: 1em;
+height: 75px;
+}
+.container{
+	margin-top: 4em;
+}
+.nav{
+margin-bottom: 2.5em;
+}
