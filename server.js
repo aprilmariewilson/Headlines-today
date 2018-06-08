@@ -23,8 +23,9 @@ app.use(express.static('.'));
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
-//mongo db 
-	mongoose.connect('mongodb://localhost/headlines-today');
+//Heroku deployment
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/headlines-today"
+	mongoose.connect(MONGODB_URI);
 
 	var db = mongoose.connection;
 
