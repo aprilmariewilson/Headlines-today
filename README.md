@@ -17,9 +17,9 @@ Once you download the repo on your local machine and NPM install you will need t
 * Handlebars
 
 ## Authors
-*[April Wilson](https://github.com/aprilmariewilson)
-*[Bleacher Report](https://bleacherreport.com)
+* [April Wilson](https://github.com/aprilmariewilson)
+* [Bleacher Report](https://bleacherreport.com)
 
-##Acknowledgements
+## Acknowledgements
 Thank you to the Bleacher Report Website for allowing their info to be used for personal use. The photographs are under copywrite therefore my website is void of photos.
 
